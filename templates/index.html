@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static',filename='css/skeleton.css') }}">
+</head>
+
+
+<body>
+
+        <header  class=" row main_nav header_color">
+            <div class="container">
+                <div class="three columns">
+                    <a class=""  href="{{ url_for('home') }}"><strong>Covid</strong><em>Ready</em></a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('home') }}">Home</a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('test_sites') }}">Test Sites</a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('food') }}">Food Distribution</a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('book') }}">Book</a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('anime') }}">Anime</a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('manga') }}">Manga</a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('games') }}">Games</a>
+                </div>
+                <div class="one column">
+                    <a class=""  href="{{ url_for('youtube') }}">Youtube</a>
+                </div>
+            </div>
+        </header>
+
+    <div class="row container">
+        <h6> Is Covid-19 scary? or are you bored because you have too much free time? or perhaps you are running low on food supplies?</h6> 
+        </h6> Don't worry, you are in the right place. I will help you put an end to your boredom and provide with all the resources you need. </h6> <br><br><br>
+
+       <h6> Need resources? </h6> 
+        For testing sites click <a class=""  href="{{ url_for('test_sites') }}"> here </a> <br>
+        For food distribution sites click <a class=""  href="{{ url_for('food') }}"> here </a> <br><br><br>
+
+        <h6> Are you bored? </h6> 
+        To read a book click <a class=""  href="{{ url_for('book') }}"> here </a> <br>
+        To watch anime click <a class=""  href="{{ url_for('anime') }}"> here </a> <br>
+        To read mange click <a class=""  href="{{ url_for('manga') }}"> here </a> <br>
+        To play free games online click <a class=""  href="{{ url_for('games') }}"> here </a> <br>
+        To watch Youtube click <a class=""  href="{{ url_for('youtube') }}"> here </a> <br>
+    </div>
+
+<footer class="row footer">
+        <div class="four columns">
+            <a href="https://www.miamidade.gov/global/initiatives/coronavirus/home.page">Miami-Dade site</a> <br>
+            <a href="https://www.miamigov.com/Notices/News-Media/COVID-19-Updates">Updates</a> <br>
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/cases-in-us.html">Cases in the U.S.</a>
+        </div>
+        <div class="four columns">
+            <a href="https://www.miamidade.gov/global/initiatives/coronavirus/home.page">General Resources</a> <br>
+            <a href="https://www.miamidade.gov/global/initiatives/coronavirus/testing-locations.page">Testing</a> <br>
+            <a href="https://www.miamidade.gov/global/initiatives/coronavirus/employment-business.page">Employment and Business Assistance</a> <br>
+            <a href="https://www.miamidade.gov/global/initiatives/coronavirus/food-senior-services.page">Food Assistance and Senior Services</a> <br>
+            <a href="https://www.miamidade.gov/global/initiatives/coronavirus/rental-housing-assistance.page">Rental and Housing Assistance</a> <br>
+            <a href="https://www.miamidade.gov/global/initiatives/coronavirus/price-gouging-fraud.page">Price Gouging and Fraud</a> <br>
+        </div>
+        <div class="four columns">
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/index.html">What's Covid-19?</a> <br>
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html">Symptoms</a> <br>
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/index.html">Prevent Getting Sick</a> <br>
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/if-you-are-sick/index.html">If You Are Sick</a> <br>
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/index.html">Daily Life and Going Out</a> <br>
+            <a href="https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/index.html">People Who Need to Take Extra Precautions</a> <br>
+        </div>
+            <br><br> <a class="copyright">&copy; 2020 CovidReady. All Rights Reserved. </a>
+</footer>
+
+</body>
+</html>

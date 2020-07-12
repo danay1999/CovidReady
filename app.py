@@ -7,7 +7,7 @@ from flask_pymongo import PyMongo
 
 # Database
 client = pymongo.MongoClient(
-    "mongodb+srv://oddgirl0713:Dalay1088@covid19.yxqql.mongodb.net/test"
+    ""
 )
 database = client["Main"]
 db_test = database["Test_sites"]

@@ -7,4 +7,4 @@ jobs:
     name: OpenAI PR Comment
     steps:
       - name: action-gpt
-      uses: dciborow/action-gpt@0.0.9
+        uses: dciborow/action-gpt@0.0.9
